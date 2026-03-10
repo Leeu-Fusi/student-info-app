@@ -43,7 +43,7 @@ class StudentView extends StatelessWidget {
             const SizedBox(height: 20), 
              
             // METHOD 3: read() - for button actions 
-            _buildChangeButton(), 
+            _buildChangeButton(context), 
              
             const SizedBox(height: 20), 
              
@@ -105,7 +105,7 @@ class StudentView extends StatelessWidget {
  
  
   // Button using read() - doesn't rebuild itself 
-  Widget _buildChangeButton() { 
+  Widget _buildChangeButton(BuildContext context) { 
     return SizedBox( 
       width: double.infinity, 
       child: ElevatedButton( 

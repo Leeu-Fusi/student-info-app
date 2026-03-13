@@ -8,7 +8,7 @@
 // 4. Use watch() for data that needs to rebuild 
 // 5. Use read() for actions (button presses) 
 // 6. Use Consumer for specific parts that need rebuilding 
-// ============================================================= 
+// ============================================================= //
  
 import 'package:flutter/material.dart'; 
 import 'package:provider/provider.dart'; 
